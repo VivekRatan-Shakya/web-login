@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url(https://media.discordapp.net/attachments/1040158445720055838/1041035025942069298/pngtree-business-background-banner-business-website-picture-image_306168.jpg);
+background-size:cover;
+background-repeat: no-repeat;
+height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+
+
+}
+nav .logo{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgba(0, 137, 228, 0.838);
+}
+nav ul{
+    display: flex;
+
+}
+nav ul li{
+    color: white;
+    font-size: 20px;
+    margin: 10px 20px 0 20px;
+    list-style: none;
+    font-weight: bold;
+}
+.search{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(0, 137, 228, 0.838) ;
+    height: 50px;
+ 
+}
+.search #search{
+    background-color: black;
+    font-size: 20px;
+    padding: 5px;
+    outline: none;
+    height: 100%;
+    border: 3px solid rgba(0, 137, 228, 0.838);
+    color: rgba(0, 0, 0, 0.064);
+}
+.search #submit{
+    height: 100%;
+    padding: 0 15px;
+    font-size: 20px;
+    border: 3px solid rgba(0, 137, 228, 0.838);
+    background-color: rgba(0, 137, 228, 0.838);
+    color: white;
+}
+main{
+    display: flex;
+
+}
+.left{
+    width: 60%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+margin: 50px 50px 0 100px;
+
+
+}
+.left .heading{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.left .heading span{
+    font-weight: normal;
+    color:  rgba(0, 137, 228, 0.838);
+}
+.left .des{
+    color: white;
+    margin: 10px 0 20px 0; 
+
+}
+.left button{
+    padding: 7px 20px;
+    background-color:  rgba(0, 137, 228, 0.838);
+    color: white;
+    font-weight: bold;
+    border-radius:20px;
+}
+
+
+.right{
+    width: 370px;
+    padding: 20px;
+    margin-top: 20px;
+border-radius: 20px;
+    background-color: rgb(79, 64, 64);
+}
+.right h2{
+    border-radius:10px ;
+text-align: center;
+margin: 20px 0 20px 0;
+padding:10px ;
+background-color: white;
+color:  rgba(0, 137, 228, 0.838);
+}
+
+
+.right form{display: flex;
+    flex-direction: column;
+
+
+
+
+}
+.right form #email, #password{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid  rgba(0, 137, 228, 0.838);
+    padding: 10px;
+    margin: 10px 0;
+}
+.right #submit{
+    margin: 20px;
+    padding: 8px 50px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: 18px;
+    background-color:  rgba(0, 137, 228, 0.838);
+    color: rgb(255, 255, 255);
+
+}
+.ac{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+
+}
+.sing{
+    text-align: center;
+    color:  rgba(0, 137, 228, 0.838);
+    font-weight: bold;
+    cursor: pointer;
+}
+.login{
+    text-align: center;
+    color: white;
+    font: bold;
+
+}
+.right ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    list-style: none;
+    margin: 10px 0 0 0;
+    
+}
+.fa-facebook{
+    color: blue;
+}
+.fa-instagram{
+    color: rgb(247, 0, 86);
+}
+.fa-twitter{
+    color: skyblue;
+
+}
+.fa-google{
+    color: yellow;
+}
+
+@media only screen and (max-width: 780px) {
+    
+nav{
+ text-align: center;
+ justify-content: center;
+ align-items: center;
+ gap: 10px;
+ flex-direction: column;
+}
+.search{
+    width: fit-content;
+}
+
+main{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+  }
